@@ -16,3 +16,6 @@ pnpm-debug.log*
 
 # Vite
 *.timestamp-*.mjs
+
+# TS incremental build artifacts
+*.tsbuildinfo
