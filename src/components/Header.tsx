@@ -66,12 +66,14 @@ export function Header() {
             {calibrated && <span className="thal-calib-dot" aria-hidden="true" />}
             {COPY.nav.calibration}
           </button>
-          <button
+          <a
             className="thal-cta-btn"
-            onClick={() => window.alert('Demo: contact form would open here.')}
+            href={COPY.app.contactUrl}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             {COPY.app.contactCta}
-          </button>
+          </a>
         </div>
       </div>
     </header>

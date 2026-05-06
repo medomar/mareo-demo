@@ -21,6 +21,7 @@ export const COPY = {
     brandTagline: 'Hospitality staffing intelligence',
     poweredBy: 'Powered by AI estimation engine',
     contactCta: 'Schedule a call',
+    contactUrl: 'https://calendly.com/medomarsayadi/30min?month=2026-05',
     footer: 'Mareo · POC demo for Royal Thalassa Monastir',
     footerMeta: 'Model initialized on public data · ±10%',
   },
