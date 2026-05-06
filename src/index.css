@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind utilities are available alongside the project's design system in
+   styles.css. Components rely on the design-system classes; Tailwind is here
+   for the occasional one-off utility (responsive helpers, debug aids). */

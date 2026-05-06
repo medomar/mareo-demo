@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0f2640"/>
+      <stop offset="1" stop-color="#1f3a5f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <path d="M0,420 C240,470 480,360 720,400 C960,440 1200,470 1200,420 L1200,630 L0,630 Z" fill="#d4b276" opacity="0.10"/>
+  <path d="M0,470 C240,420 520,490 760,460 C1000,430 1220,480 1200,470 L1200,630 L0,630 Z" fill="#d4b276" opacity="0.06"/>
+  <text x="80" y="220" font-family="Fraunces, Georgia, serif" font-size="84" fill="#faf6ee" font-weight="400">Mareo</text>
+  <text x="80" y="290" font-family="DM Sans, sans-serif" font-size="32" fill="#d4b276" letter-spacing="2">AI WORKFORCE INTELLIGENCE FOR HOSPITALITY</text>
+  <text x="80" y="350" font-family="DM Sans, sans-serif" font-size="26" fill="#a3b6cb">Estimate first · refine with data · scale across properties</text>
+</svg>
