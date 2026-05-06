@@ -1,4 +1,5 @@
 import { create } from 'zustand';
+import { useShallow } from 'zustand/react/shallow';
 import type { SourceCardId } from '@/data/copy';
 import {
   DEFAULT_CALIBRATION,
@@ -128,12 +129,14 @@ export type CalibrationSlice = {
 };
 
 export function useCalibration(): CalibrationSlice {
-  return useAppStore((s) => ({
-    monthlySalary: s.monthlySalary,
-    totalStaff: s.totalStaff,
-    pms: s.pms,
-    painDept: s.painDept,
-  }));
+  return useAppStore(
+    useShallow((s) => ({
+      monthlySalary: s.monthlySalary,
+      totalStaff: s.totalStaff,
+      pms: s.pms,
+      painDept: s.painDept,
+    })),
+  );
 }
 
 export function useDepartments(): readonly Department[] {
